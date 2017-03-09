@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+
+
+	<apple id="1">
+		<name>Iphone</name>
+		<price>500</price>
+		<image>Iphone0.jpg</image>
+		<retailer>Huawei</retailer>
+		<discount>10</discount>
+		<Condition>New</Condition>
+			</apple>	
+	<Samsung id="7">
+		<name>Galaxys5</name>
+		<price>300</price>
+		<image>galaxys5.jpg</image>
+		<retailer>Samsung</retailer>
+		<discount>2</discount>
+		<Condition>New</Condition>
+				<accimage>s	<name>Iphone</name>
+		<price>500</price>
+		<image>Iphone0.jpg</image>
+		<retailer>Huawei</retailer>
+		<discount>10</discount>
+		<Condition>New</Condition>
+		<Samsung id="23">
+		<name>Galaxys5</name>
+		<price>300</price>
+		<image>galaxys5.jpg</image>
+		<retailer>Samsung</retailer>
+		<discount>2</discount>
+		<Condition>New</Condition>
+		<Accessories>
+			<Accessory id="8">
+				<accname>Plugins</accname>
+				<accprice>60</accprice>
+				<accimage>samsungplugins.jpg</accimage>
+				<accretailer>Samsung</accretailer>
+				<discount>0</discount>
+				<acccondition>New</acccondition>
+			</Accessory>
+			<Accessory id="9">
+				<accname>Charger Bluetooth</accname>
+				<accprice>60</accprice>
+				<accimage>samsungchargerBT.jpg</accimage>
+				<accretailer>Samsung</accretailer>
+				<discount>0</discount>
+				<acccondition>New</acccondition>
+			</Accessory>
+		</Accessories>
+	</Samsung>
+	<Moto id="24">
+		<name>Razor</name>
+		<price>200</price>
+		<image>mototrazr.jpg</image>
+		<retailer>Motorola</retailer>
+		<discount>2</discount>
+		<Condition>New</Condition>
+	</Moto>
+
+	
+	</SmartPhones>

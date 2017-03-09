@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>Best Deals</display-name>
+  <welcome-file-list>
+    <welcome-file>Home</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>Startup</servlet-name>
+    <servlet-class>Startup</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet>
+    <servlet-name>Home</servlet-name>
+    <servlet-class>Home</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Home</servlet-name>
+    <url-pattern>/Home</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>homepage</servlet-name>
+    <servlet-class>Home</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>homepage</servlet-name>
+    <url-pattern>/mainhome</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>login1</servlet-name>
+    <servlet-class>Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>login1</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>    
+   
+  <servlet>
+    <servlet-name>login2</servlet-name>
+    <servlet-class>LoginToDB</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>login2</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>    
+ 
+  <servlet>
+    <servlet-name>register1</servlet-name>
+    <servlet-class>Register</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>register1</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>  
+
+<servlet>
+    <servlet-name>laptops</servlet-name>
+    <servlet-class>Laptop</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>laptops</servlet-name>
+    <url-pattern>/laptop</url-pattern>
+  </servlet-mapping>      
+  
+  <servlet>
+    <servlet-name>r2</servlet-name>
+    <servlet-class>RegisterToDB</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>r2</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>cart1</servlet-name>
+    <servlet-class>Cart</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>cart1</servlet-name>
+    <url-pattern>/cart</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>cart2</servlet-name>
+    <servlet-class>Cart1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>cart2</servlet-name>
+    <url-pattern>/cart1</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>out</servlet-name>
+    <servlet-class>Logout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>out</servlet-name>
+    <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>pc</servlet-name>
+    <servlet-class>ProceedCheckout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>pc</servlet-name>
+    <url-pattern>/proceed</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>acc</servlet-name>
+    <servlet-class>Account</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>acc</servlet-name>
+    <url-pattern>/Account</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>dele</servlet-name>
+    <servlet-class>DeleteProduct</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>dele</servlet-name>
+    <url-pattern>/Delete</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>order</servlet-name>
+    <servlet-class>ConfirmOrder</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>order</servlet-name>
+    <url-pattern>/confirm</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>trackorder</servlet-name>
+    <servlet-class>TrackOrder</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>trackorder</servlet-name>
+    <url-pattern>/track</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>track</servlet-name>
+    <servlet-class>Tracking</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>track</servlet-name>
+    <url-pattern>/tracking</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>sale</servlet-name>
+    <servlet-class>SalesManager</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>sale</servlet-name>
+    <url-pattern>/sales</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>stores</servlet-name>
+    <servlet-class>StoreManager</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>stores</servlet-name>
+    <url-pattern>/store</url-pattern>
+  </servlet-mapping>
+  
+  
+    <servlet>
+    <servlet-name>del</servlet-name>
+    <servlet-class>DeleteUser</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>del</servlet-name>
+    <url-pattern>/remove</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>review</servlet-name>
+    <servlet-class>SubmitReviews</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>review</servlet-name>
+    <url-pattern>/SubmitReviews</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>cfinal</servlet-name>
+    <servlet-class>CC</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>cfinal</servlet-name>
+    <url-pattern>/finalc</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>pr</servlet-name>
+    <servlet-class>Review</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>pr</servlet-name>
+    <url-pattern>/preview</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>dataa</servlet-name>
+    <servlet-class>DataAnalytics</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>dataa</servlet-name>
+    <url-pattern>/data</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+    <servlet-name>mr</servlet-name>
+    <servlet-class>MyReviews</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>mr</servlet-name>
+    <url-pattern>/mreviews</url-pattern>
+  </servlet-mapping>
+
+        <servlet>
+    <servlet-name>trend</servlet-name>
+    <servlet-class>Trending</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>trend</servlet-name>
+    <url-pattern>/trending</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>p</servlet-name>
+    <servlet-class>Mobiles</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>p</servlet-name>
+    <url-pattern>/Phone</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>t</servlet-name>
+    <servlet-class>Telivisions</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>t</servlet-name>
+    <url-pattern>/Tv</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>tb</servlet-name>
+    <servlet-class>Tablets</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>tb</servlet-name>
+    <url-pattern>/Tablet</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>d</servlet-name>
+    <servlet-class>Done</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>d</servlet-name>
+    <url-pattern>/trail</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>ser</servlet-name>
+    <servlet-class>AjaxSearch</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ser</servlet-name>
+    <url-pattern>/Search1</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>pun</servlet-name>
+    <servlet-class>Search</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>pun</servlet-name>
+    <url-pattern>/Search</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>ajax</servlet-name>
+    <servlet-class>AjaxView</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ajax</servlet-name>
+    <url-pattern>/AjaxView</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+    <servlet-name>inser</servlet-name>
+    <servlet-class>InsertProduct</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>inser</servlet-name>
+    <url-pattern>/Insert</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>top5p</servlet-name>
+    <servlet-class>Top5Products</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>top5p</servlet-name>
+    <url-pattern>/products</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>top5r</servlet-name>
+    <servlet-class>Top5Ratings</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>top5r</servlet-name>
+    <url-pattern>/ratings</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>top5z</servlet-name>
+    <servlet-class>Top5ZipCode</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>top5z</servlet-name>
+    <url-pattern>/zipcode</url-pattern>
+  </servlet-mapping>
+  </web-app>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+
+<laptops>
+		<apple id="1">
+		<name>Apple Laptop</name>
+		<price>1200</price>
+		<image>applegx8.jpg</image>
+		<retailer>apple</retailer>
+		<discount>99</discount>
+		<Condition>BrandNew</Condition>
+		
+		
+		
+	</apple>	
+	
+	
+	
+	
+	<Samsung id="7">
+		<name>Lenovo Spectre</name>
+		<price>900</price>
+		<image>spectre.jpeg</image>
+		<retailer>Samsung</retailer>
+		<discount>55</discount>
+		<Condition>HP</Condition>
+		
+	</Samsung>
+	
+	
+	
+		
+	</laptops>

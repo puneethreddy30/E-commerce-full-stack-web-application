@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>pied - Free CSS Template by ZyPOP</title>
+<link rel="stylesheet" href="styles.css" type="text/css" />
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--
+pied, a free CSS web template by ZyPOP (zypopwebtemplates.com/)
+
+Download: http://zypopwebtemplates.com/
+
+License: Creative Commons Attribution
+//-->
+<script>
+var request=new XMLHttpRequest();
+function searchInfo(){
+var name=document.vinform.name.value;
+var url="Search?val="+name;
+
+try{
+request.onreadystatechange=function(){
+if(request.readyState==4){
+var val=request.responseText;
+document.getElementById('mylocation').innerHTML=val;
+}
+}//end of function
+request.open("GET",url,true);
+request.send();
+}catch(e){alert("Unable to connect to server");}
+}
+</script>
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+</head>
+<body>
+<div id="container">
+<header>
+	<div class="width">
+    		<h1><a href="/">Best<span>Deals</span></a></h1>
+       	</div>
+    </header>
+    <nav>
+	<div class="width">
+    		<ul>
+        		<li class="start selected"><a href="mainhome">Home</a></li>
+        	    	<li class=""><a href="Laptop">Laptops</a></li>
+         	   	<li><a href="Phone">Mobiles</a></li>
+          	  	<li><a href="TV">Telivision</a></li>
+          	 	<li ><a href="Tablet">Tablets</a></li>
+				<li ><a href="Login">Login</a></li>
+				<li ><a href="Register">Register</a></li>
+				<li ><a href="Cart1">Cart</a></li>
+				<li ><a href="ser1.html">Search</a></li>
+        	</ul>
+	</div>
+    </nav>
+
+
+    <div id="body" class="width">
+
+		
+
+		<section id="content">
+<section id="content">
+<h4>Search Products here</h4>
+<form name="vinform" action="Search">
+<input type="text" name="name" onkeyup="searchInfo()">
+</form>
+
+<span id="mylocation"></span>
+</section>
+
+		</section>
+        
+        <aside class="sidebar">
+	<ul>
+	
+               <li>
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="Laptop.jsp">Laptops</a></li>
+                        <li><a href="Phone.jsp">Mobiles</a></li>
+                        <li><a href="Tv.jsp">Telivisions</a></li>
+						
+              
+                    </ul>
+                </li>
+                
+                    </ul>
+		
+					
+            <ul>
+	
+               <li>
+                    <h4>Trending</h4>
+                    <ul>
+                        <li><a href="Top5Ratings.jsp">Top 5 ratings(Greater than 3)</a></li>
+                        <li><a href="Top5ZipCode.jsp">Top 5 zip codes</a></li>
+                        <li><a href="Top5Products.jsp">Top 5 Products</a></li>
+						
+              
+                    </ul>
+                </li>
+                
+                    </ul>
+                
+          
+        </aside>
+    	<div class="clear"></div>
+    </div>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+ <br><br><footer>
+    <footer>
+        <div class="footer-content width">
+            
+        <div class="footer-content width">
+            <ul>
+            	<li><h4>Mobiles</h4></li>
+                <li><a href="#">Apple</a></li>
+                <li><a href="#">Samsung</a></li>
+                <li><a href="#">Moto G</a></li>
+                <li><a href="#">Microsoft </a></li>
+            </ul>
+            
+            <ul>
+            	<li><h4>Laptops</h4></li>
+                <li><a href="#">Lenovo</a></li>
+                <li><a href="#">Apple </a></li>
+                <li><a href="#">Dell</a></li>
+                <li><a href="#">Acer</a></li>
+            </ul>
+            
+            <ul class="endfooter">
+            	<li><h4>Tablets</h4></li>
+                <li><a href="#">Apple </a></li>
+                <li><a href="#">Samsung</a></li>
+                <li><a href="#">Lenovo</a></li>
+                <li><a href="#">Microsoft</a></li>
+                </ul>
+            <div class="clear"></div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; YourSite 2014. <a href="http://zypopwebtemplates.com/">Free CSS Website Templates</a> by ZyPOP</p>
+         </div>
+    </footer>
+</div>
+</body>
+</html>

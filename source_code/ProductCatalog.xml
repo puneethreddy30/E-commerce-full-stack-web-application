@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductCatalog>
+    <product id="001" retailer="BestBuy">
+        <type>Apple</type>
+        <image>images/apple.png</image>
+        <name>iphone</name>
+        <price>1200.99</price>
+    </product>
+    <product id="002" retailer="BestBuy">
+        <type>Samsung</type>
+        <image>images/samsung.png</image>
+        <name>Apple 5S</name>
+        <price>600</price>
+        </product>
+</ProductCatalog>
